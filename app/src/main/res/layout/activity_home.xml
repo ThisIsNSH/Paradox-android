@@ -67,6 +67,16 @@
                     android:text="Sexy Bacha"
                     android:textColor="#fff"
                     android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Out"
+                    android:id="@+id/signout"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:layout_below="@id/title_name"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"/>
             </RelativeLayout>
 
             <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
@@ -136,6 +146,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/ps"
+                        android:gravity="center"
                         android:text="Rankings"
                         android:singleLine="true"
                         android:textColor="#333"
@@ -268,7 +279,6 @@
                 >
 
                 <ImageView
-                    android:padding="4dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
@@ -286,7 +296,6 @@
                >
 
                 <ImageView
-                    android:padding="4dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
@@ -372,18 +381,6 @@
                 android:textSize="17sp"
                 android:visibility="gone" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginBottom="277dp"
-                android:fontFamily="psb"
-                android:text="More"
-                android:textColor="#333"
-                android:textSize="17sp"
-                android:visibility="gone" />
         </RelativeLayout>
 
         <android.support.v7.widget.RecyclerView
